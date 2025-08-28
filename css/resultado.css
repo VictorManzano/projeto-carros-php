@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 30, 30);
+    font-family: 'Inter', sans-serif;
+}
+
+.containerPai {
+    width: 380px;
+    min-height: 250px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cardVeiculo {
+    width: 70%;
+    background-color: rgb(20, 20, 20);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cardVeiculo h2 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.cardVeiculo p {
+    color: #ccc;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(50, 50, 50);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.voltar:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
