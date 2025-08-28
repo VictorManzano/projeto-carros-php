@@ -18,7 +18,7 @@ Permite cadastrar placas de carros com modelo e ano, e depois consultar os regis
 - HTML  
 - CSS  
 - PHP  
-- MySQL (ou SQLite, dependendo da implementação)  
+- MySQL 
 
 ---
 
